@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;400;700&display=swap');
+
+/* Table 1 */
+.table1{
+    border-collapse: collapse;
+    border: 1px solid #fec107;
+    font-family: Montserrat;
+    width: 700px;
+}
+
+.table1 thead{
+    background: #fec107;
+    color: black;
+    text-transform: uppercase;
+}
+
+.table1 tbody{
+    background: #382c6e;
+    color: white;
+    font-weight: 400;
+}
+
+.table1 th{
+    padding: 20px;
+    border: 1px solid #fec107; 
+    font-size: 1.1em;  
+}
+
+.table1 td{
+    padding: 20px;
+    border: 1px solid #fec107; 
+    font-size: 1em;    
+}
+
+.table1 .pavardė{
+    background: #e5ae30;
+}
+
+/* Table 2 */
+.table2{
+    border-collapse: collapse;
+    border: 3px solid #ffffff;
+    font-family: Arial;
+    width: 700px;
+}
+
+.table2 thead{
+    color: #ffffff;
+    text-align: left;
+}
+
+.table2 tbody{
+    color: #ffffff;
+    text-align: left;
+}
+
+.table2 th{
+    background: #86006f;
+    padding: 12px;
+    border: 3px solid #ffffff;  
+    font-size: 1.1em;
+    font-family: Roboto Mono; 
+    font-weight: 700;
+}
+
+.table2 td{
+    padding: 12px;
+    border: 3px solid #ffffff;   
+    font-size: 1em;  
+    color: #ffffff;
+}
+
+.table2 tr:nth-of-type(odd){
+    background: #f37ecf;
+}
+
+.table2 tr:nth-of-type(even){
+    background: #af5593;
+}
+
+/* Table 3 */
+.table3{
+    border-collapse: collapse;
+    border: 3px solid #000000;
+    font-family: IBM Plex Mono;
+    width: 600px;
+}
+
+.table3 tbody{
+    color: #000000;
+    text-align: left;
+}
+
+.table3 td{
+    padding: 5px;
+    border: 3px solid #000000;   
+    font-size: 1.1em;  
+    color: #000000;
+    font-weight: 400;
+}
+
+.table3 .oranžinė{
+    background: #fea500;
+    color: #ffffff;
+}
+
+.table3 .mėlyna{
+    background: #4f4fff;
+    color: #ffffff;
+}
+
+.table3 .žalia{
+    background: #16c03b;
+    color: #ffffff;
+}
+
+.table3 .vardas{
+    font-weight: bold;
+}
+
+.table3 .numeris{
+    font-weight: bold;
+}
+
+.table3 .spalvos{
+    font-weight: bold;
+}
